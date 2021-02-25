@@ -73,5 +73,19 @@ https://developer.android.com/reference/android/bluetooth/le/ScanRecord
 
 -------
 
+## multi-task-mlp[Inference]
+https://www.kaggle.com/a763337092/multi-task-mlp-inference
+
+
+
+
+## wifi features lightgbm starter
+https://www.kaggle.com/devinanzelmo/wifi-features-lightgbm-starter
+
+
+-------
+
+
+
 
 
