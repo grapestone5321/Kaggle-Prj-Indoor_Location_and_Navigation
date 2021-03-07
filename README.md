@@ -66,7 +66,7 @@ https://developer.android.com/reference/android/bluetooth/le/ScanRecord
 
 ## Progress
 
-### Public Best LB Score: 13.166
+### Public Best LB Score: 7.745
 
 ### Private Score: 
 
@@ -83,6 +83,17 @@ https://www.kaggle.com/a763337092/multi-task-mlp-inference
 https://www.kaggle.com/devinanzelmo/wifi-features-lightgbm-starter
 
 
+
+## Indoor GBM+postprocessing XY prediction
+
+
+### 'learning_rate': 0.1, #default=0.1
+
+      'learning_rate': 0.1       LB 7.745   ver1   --- Best 
+      'learning_rate': 0.01      LB         ver2
+    
+    
+    
 -------
 
 
