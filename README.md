@@ -134,3 +134,13 @@ https://www.kaggle.com/c/hpa-single-cell-image-classification/leaderboard
       submission_df_leak_start.csv          LB 4.770   ver1 
       submission_df_leak_start_end.csv      LB 4.737   ver1   --- Best 
 
+-------
+
+## Ensembling best performing notebooks
+https://www.kaggle.com/saurabhbagchi/ensembling-best-performing-notebooks
+
+
+-------
+
+
+
