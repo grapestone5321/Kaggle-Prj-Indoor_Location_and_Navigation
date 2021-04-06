@@ -129,8 +129,8 @@ https://www.kaggle.com/devinanzelmo/wifi-features-lightgbm-starter
 https://www.kaggle.com/c/hpa-single-cell-image-classification/leaderboard
 
       submission_df_leak_all.csv            LB 4.943   ver1
-      submission_df_leak_end.csv            LB 4.755   ver1   --- Best 
+      submission_df_leak_end.csv            LB 4.755   ver1
       submission_df_leak_floor.csv          LB 4.995   ver1
       submission_df_leak_start.csv          LB 4.770   ver1 
-      submission_df_leak_start_end.csv      LB    ver
+      submission_df_leak_start_end.csv      LB 4.737   ver1   --- Best 
 
