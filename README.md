@@ -139,11 +139,26 @@ https://www.kaggle.com/c/hpa-single-cell-image-classification/leaderboard
 
 -------
 
-## Ensembling best performing notebooks
-https://www.kaggle.com/saurabhbagchi/ensembling-best-performing-notebooks
+
+## Postprocessing based on leakage-1
+
+
+      submission_df_leak_all.csv            LB 4.924   ver3    
+      submission_df_leak_end.csv            LB         ver3
+      submission_df_leak_floor.csv          LB         ver3
+      submission_df_leak_start.csv          LB         ver3
+      
+      submission_df_leak_start_end.csv      LB 4.718   ver3
+
 
 
 -------
 
 
 
+
+## Ensembling best performing notebooks
+https://www.kaggle.com/saurabhbagchi/ensembling-best-performing-notebooks
+
+
+-------
