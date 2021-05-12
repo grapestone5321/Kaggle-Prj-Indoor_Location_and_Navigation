@@ -74,6 +74,20 @@ A note on data quality: In the training files, you may find occasionally that a 
 
 It is up to you how you want to handle this issue. This issue is not found in the test data.
 
+
+### Files
+- train: training path files, organized by site and floor; each path files contains the data of a single path on a single floor
+
+- test: test path files, organized by site and floor; each path files contains the data of a single path on a single floor, but without the waypoint (x, y) data; the task of this competition is, for a given site-path file, predict the floor and waypoint locations at the timestamps given in the sample_submission.csv file
+
+- metadata: floor metadata folder, organized by site and floor, which includes the following for each floor:
+     
+      floor_image.png
+      floor_info.json
+      geojson_map.json
+
+- sample_submission.csv: a sample submission file in the correct format; each has a unique id which contains a site id, a path id, and the timestamp within the trace for which to make a prediction; see the Evaluation page for the required integer mapping of floor names
+
 -------
 
 ## github link
