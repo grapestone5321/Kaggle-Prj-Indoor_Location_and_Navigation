@@ -95,7 +95,7 @@ https://developer.android.com/reference/android/bluetooth/le/ScanRecord
 
 ## Progress
 
-### Public Best LB Score: 4.718
+### Public Best LB Score: 4.519
 
 ### Private Score: 
 
@@ -169,11 +169,16 @@ class SiteInfo():
 -------
 
 
-
-
 ## Ensembling best performing notebooks
 https://www.kaggle.com/saurabhbagchi/ensembling-best-performing-notebooks
 
       Public Score 4.744
 
 -------
+
+
+## Magn Cost Minimization + Post Processing
+https://www.kaggle.com/mhilmiasyrofi/magn-cost-minimization-post-processing
+
+      Public Score 4.519
+
