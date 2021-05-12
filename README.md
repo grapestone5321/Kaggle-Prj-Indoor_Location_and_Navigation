@@ -198,5 +198,13 @@ https://www.kaggle.com/saurabhbagchi/ensembling-best-performing-notebooks
 ## Magn Cost Minimization + Post Processing
 https://www.kaggle.com/mhilmiasyrofi/magn-cost-minimization-post-processing
 
-      Public Score 4.519
+      fs = 75    LB: 4.606     ver2
+      fs = 100   LB: 4.519     ver1   --- default
+      fs = 110   LB:     ver4    
+      fs = 125   LB: 4.563     ver3
+      
+      
+-------
 
+
+      
