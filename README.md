@@ -175,7 +175,7 @@ class SiteInfo():
 https://www.kaggle.com/saurabhbagchi/ensembling-best-performing-notebooks
 
       LB: 4.744     ver7
-      LB:     ver8
+      LB: 4.472     ver8     --- Best
 
 -------
 
