@@ -97,7 +97,7 @@ https://developer.android.com/reference/android/bluetooth/le/ScanRecord
 
 ## Progress
 
-### Public Best LB Score: 4.519
+### Public Best LB Score: 4.470
 
 ### Private Score: 
 
