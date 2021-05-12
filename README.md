@@ -23,6 +23,21 @@ May 17, 2021 - Final submission deadline at 11:59 PM UTC
 
 -------
 
+## Submission File
+
+For each site_path_timestamp row in the test set, you must predict the floor converted to an integer as per above and the x and y of the waypoint. 
+
+The file should contain a header and have the following format:
+
+      site_path_timestamp,floor,x,y
+      5a0546857ecc773753327266_046cfa46be49fc10834815c6_1578474564146,0,15.0,55.0
+      5a0546857ecc773753327266_046cfa46be49fc10834815c6_1578474573154,0,25.0,65.0
+      5a0546857ecc773753327266_046cfa46be49fc10834815c6_1578474579463,0,35.0,75.0
+      etc.
+
+
+-------
+
 ## evaluation
 
 Submissions are evaluated on the mean position error
@@ -41,19 +56,6 @@ IMPORTANT: The integer floor used in the submission must be mapped from the char
 
 There are other floor names in the training data, e.g., LG2, LM, etc., which you may decide to use for training, but none of these non-standard floors are found in the test set.
 
--------
-
-## Submission File
-
-For each site_path_timestamp row in the test set, you must predict the floor converted to an integer as per above and the x and y of the waypoint. 
-
-The file should contain a header and have the following format:
-
-      site_path_timestamp,floor,x,y
-      5a0546857ecc773753327266_046cfa46be49fc10834815c6_1578474564146,0,15.0,55.0
-      5a0546857ecc773753327266_046cfa46be49fc10834815c6_1578474573154,0,25.0,65.0
-      5a0546857ecc773753327266_046cfa46be49fc10834815c6_1578474579463,0,35.0,75.0
-      etc.
 
 -------
 
