@@ -174,7 +174,8 @@ class SiteInfo():
 ## Ensembling best performing notebooks
 https://www.kaggle.com/saurabhbagchi/ensembling-best-performing-notebooks
 
-      Public Score 4.744
+      LB: 4.744     ver7
+      LB:     ver8
 
 -------
 
