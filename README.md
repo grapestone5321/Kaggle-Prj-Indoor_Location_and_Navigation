@@ -199,13 +199,20 @@ https://www.kaggle.com/saurabhbagchi/ensembling-best-performing-notebooks
 https://www.kaggle.com/mhilmiasyrofi/magn-cost-minimization-post-processing
 
       fs = 75    LB: 4.606     ver2
-      fs = 95    LB:      ver
-      fs = 100   LB: 4.519     ver1   --- default
-      fs = 105   LB:      ver
+      fs = 100   LB: 4.519     ver1        --- default
+      fs = 105   LB: 4.511     ver5        --- (Best)
       fs = 110   LB: 4.520     ver4    
       fs = 125   LB: 4.563     ver3
       
-      
+fs = 105:
+
+      order = 5   LB: 4.511     ver6       
+      order = 6   LB: 4.511     ver5       --- default
+      order = 7   LB: 4.521     ver7
+
+
+
+
 -------
 
 
