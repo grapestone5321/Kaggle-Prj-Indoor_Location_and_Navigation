@@ -210,7 +210,11 @@ fs = 105:
       order = 6   LB: 4.511     ver5       --- default
       order = 7   LB: 4.521     ver7
 
+order = 6:
 
+      cutoff = 3.5     LB: 4.520     ver9
+      cutoff = 3.667   LB: 4.511     ver5       --- default
+      cutoff = 4.0     LB: 4.529     ver8
 
 
 -------
