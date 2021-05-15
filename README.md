@@ -216,8 +216,19 @@ order = 6:
       cutoff = 3.667   LB: 4.511     ver5       --- default
       cutoff = 4.0     LB: 4.529     ver8
 
+cutoff = 3.667:
 
+      step_distance = 0.75     LB: 4.511     ver5        --- default
+      step_distance = 0.70     LB: 4.511     ver10
+      step_distance = 0.60     LB: 4.511     ver11
 
+step_distance = 0.75:
+
+      w_height = 1.7      LB: 4.511     ver5        --- default
+      w_height = 1.5      LB: 4.464     ver12
+      w_height = 1.4      LB: 4.449     ver13
+      w_height = 1.3      LB: 4.441     ver14
+      w_height = 1.2      LB:      ver15
 
 
 -------
