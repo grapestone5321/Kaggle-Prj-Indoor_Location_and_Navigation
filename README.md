@@ -224,11 +224,14 @@ cutoff = 3.667:
 
 step_distance = 0.75:
 
-      w_height = 1.7      LB: 4.511     ver5        --- default
+      w_height = 1.7      LB: 4.511     ver5      --- default
       w_height = 1.5      LB: 4.464     ver12
       w_height = 1.4      LB: 4.449     ver13
       w_height = 1.3      LB: 4.441     ver14
-      w_height = 1.2      LB:      ver15
+      w_height = 1.2      LB: 4.439     ver15     --- Best
+      w_height = 1.1      LB: 4.443     ver17
+      w_height = 1.0      LB: 4.454     ver16
+      
 
 
 -------
