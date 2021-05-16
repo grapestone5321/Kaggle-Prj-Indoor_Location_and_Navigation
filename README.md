@@ -234,8 +234,10 @@ step_distance = 0.75:
       
 w_height = 1.2:
 
-      m_trans = -3        LB:      ver21
-      m_trans = -2.4      LB: 4.436     ver20        --- Best
+      m_trans = -6        LB:     ver23
+      m_trans = -4        LB: 4.426     ver22        --- Best
+      m_trans = -3        LB: 4.433     ver21 
+      m_trans = -2.4      LB: 4.436     ver20
       m_trans = -2.2      LB: 4.438     ver19
       m_trans = -2        LB: 4.439     ver15        --- default
       m_trans = -1.8      LB: 4.440     ver18
