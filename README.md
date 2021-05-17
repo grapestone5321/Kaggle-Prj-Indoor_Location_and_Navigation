@@ -111,7 +111,7 @@ https://developer.android.com/reference/android/bluetooth/le/ScanRecord
 
 ## Progress
 
-### Public Best LB Score: 4.470
+### Public Best LB Score: 4.363
 
 ### Private Score: 
 
@@ -185,16 +185,6 @@ class SiteInfo():
 -------
 
 
-## Ensembling best performing notebooks
-https://www.kaggle.com/saurabhbagchi/ensembling-best-performing-notebooks
-
-      LB: 4.744     ver7
-      LB: 4.472     ver8 
-      LB: 4.470     ver9     --- Best
-
--------
-
-
 ## Magn Cost Minimization + Post Processing
 https://www.kaggle.com/mhilmiasyrofi/magn-cost-minimization-post-processing
 
@@ -235,8 +225,8 @@ step_distance = 0.75:
 w_height = 1.2:
 
       m_trans = -40       LB: 4.434     ver26
-      m_trans = -25       LB:      ver27
-      m_trans = -20       LB: 4.374     ver25        --- Best
+      m_trans = -25       LB: 4.377     ver27
+      m_trans = -20       LB: 4.374     ver25        --- (Best)
       m_trans = -10       LB: 4.397     ver24  
       m_trans = -6        LB: 4.415     ver23
       m_trans = -4        LB: 4.426     ver22 
@@ -246,7 +236,29 @@ w_height = 1.2:
       m_trans = -2        LB: 4.439     ver15        --- default
       m_trans = -1.8      LB: 4.440     ver18
 
+m_trans = -20
+
+      sub = pd.read_csv('../input/indoor-loc-and-nav-subs/submission_4475.csv')     LB: 4.374     ver25        --- default
+      sub = pd.read_csv('../input/indoor-loc-and-nav-subs/submission_4470.csv')     LB: 4.372     ver29        --- Best
+
 -------
 
+## Ensembling best performing notebooks
+https://www.kaggle.com/saurabhbagchi/ensembling-best-performing-notebooks
 
+      LB: 4.744     ver7
+      LB: 4.472     ver8 
+      LB: 4.470     ver9  
+      
+     data1 = pd.read_csv("/kaggle/input/indoorsubmission-df-leak-start-end4372/submission_df_leak_start_end-4372.csv")
+     data2 = pd.read_csv("/kaggle/input/indoor-loc-and-nav-subs/submission_4470.csv")
+     
+data15 = data1:
+
+     data15['x'] = 0.85*data1['x'] + 0.15*data2['x'] + 0*data3['x'] + 0*data4['x']
+     data15['y'] = 0.85*data1['y'] + 0.15*data2['y'] + 0*data3['y'] + 0*data4['y']
+     
+     LB: 4.363     ver10     --- Best
+     
+-------
       
